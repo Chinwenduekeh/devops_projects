@@ -10,15 +10,15 @@ lets build a simple calculator that takes 3 input
  * Add or substract and either add or subtract base on user input and it does the calculation for the user and outputs the final answer
 
 ## Implementation steps:
-1. Create the script.
+1. Create the script:
 
     * nano calculator.sh
 
-2. Make it executable
+2. Make it executable:
 
     * chmod +x calculator.sh
 
-3. Run the script
+3. Run the script:
 
     * Use ./calculator.sh to get your result.
 
@@ -26,7 +26,7 @@ lets build a simple calculator that takes 3 input
 
 8. Use arithematic expansion $ (( ...)) to compute the answer.
 
-9. Print the final result
+9. Print the final result:
 
 10. Run the script: ./filename.sh
 
@@ -40,11 +40,11 @@ Automated user creation with Email and sudo Access right
 Get user inputs: Name and Surname Use this to create a user with username namesurname@devopsclass.com, Assign the user sudo rights and display their name, surname and email.
 
 ## Implementation steps:
-1. Create the script file and make it executable:
+1. Create the script file:
 
     *touch createuser.sh
 
-2. Make it executable
+2. Make it executable:
 
     *chmod +x createuser.sh
 
