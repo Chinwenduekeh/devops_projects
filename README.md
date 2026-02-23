@@ -1,66 +1,74 @@
-Project Name:
+## Project Name:
 Building a basic calculator
 
-Objective
+## Objective
 lets build a simple calculator that takes 3 input
 
-num 1
+ * num 1
+ * num 2
 
-num 2
+ * Add or substract and either add or subtract base on user input and it does the calculation for the user and outputs the final answer
 
-Add or substract and either add or subtract base on user input and it does the calculation for the user and outputs the final answer
+## Implementation steps:
+1. Create the script.
 
-Implementation steps:
-Create the script.
+    * nano calculator.sh
 
-nano calculator.sh
-Make it executable
+2. Make it executable
 
-chmod +x calculator.sh
-Run the script
+    * chmod +x calculator.sh
 
-Use ./calculator.sh to get your result.
-Use an if / elif/ else block to decide which arithemetic operation to perform.
+3. Run the script
 
-Use arithematic expansion $ (( ...)) to compute the answer.
+    * Use ./calculator.sh to get your result.
 
-Print the final result
+7. Use an if / elif/ else block to decide which arithemetic operation to perform.
 
-Run the script: ./filename.sh
+8. Use arithematic expansion $ (( ...)) to compute the answer.
 
-Project2, Name:
+9. Print the final result
+
+10. Run the script: ./filename.sh
+
+
+
+
+## Project2, Name:
 Automated user creation with Email and sudo Access right
 
-Objective:
+## Objective:
 Get user inputs: Name and Surname Use this to create a user with username namesurname@devopsclass.com, Assign the user sudo rights and display their name, surname and email.
 
-Implementation steps:
+## Implementation steps:
 Create the script file and make it executable:
 
-*touch createuser.sh
+  *touch createuser.sh
 
-*chmod +x createuser.sh
+  *chmod +x createuser.sh
 
-implement the script:
+3. implement the script:
+    *Use read to collect:
+    *First name
+    *Last name
 
-Use read to collect:
-First name
-Last name
-Build the username by concatenating lowercase first name and last name (e.g,mark + spencer -> markspencer)
+* Build the username by concatenating lowercase first name and last name (e.g,mark + spencer -> markspencer)
 
-Build the email as username@devopsclass.com
+* Build the email as username@devopsclass.com
 
-Create the user using a user management command (e.g adduser)
+* Create the user using a user management command (e.g adduser)
 
-Add the user to the sudo group.
+* Add the user to the sudo group.
 
-Print the user's first name, last name,email,and a confirmation message
+* Print the user's first name, last name,email,and a confirmation message
 
-Run the script with elevated privileges:
-sudo ./createuser.sh.
-Knowlegdge Gained
-How to create and run Bash script in Linux environment.
-How to get users inputs.
-How to create users and assign them sudo rights
-Basic user management in linux
-performing integer arithmetic in bash
+4. Run the script with elevated privileges:
+    * sudo ./createuser.sh.
+      
+
+
+## Knowlegdge Gained
+ * How to create and run Bash script in Linux environment.
+* How to get users inputs.
+* How to create users and assign them sudo rights
+* Basic user management in linux
+* performing integer arithmetic in bash
