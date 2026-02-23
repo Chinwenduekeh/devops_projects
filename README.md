@@ -68,7 +68,7 @@ Get user inputs: Name and Surname Use this to create a user with username namesu
       
 
 
-## Knowlegdge Gained
+## Knowledge Gained
 * How to create and run Bash script in Linux environment.
 * How to get users inputs.
 * How to create users and assign them sudo rights
