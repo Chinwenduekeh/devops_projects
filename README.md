@@ -42,16 +42,16 @@ Get user inputs: Name and Surname Use this to create a user with username namesu
 ## Implementation steps:
 1. Create the script file:
 
-    *touch createuser.sh
+    * touch createuser.sh
 
 2. Make it executable:
 
-    *chmod +x createuser.sh
+    * chmod +x createuser.sh
 
 3. implement the script:
-    *Use read to collect:
-    *First name
-    *Last name
+    * Use read to collect:
+    * First name
+    * Last name
 
 * Build the username by concatenating lowercase first name and last name (e.g,mark + spencer -> markspencer)
 
@@ -69,7 +69,7 @@ Get user inputs: Name and Surname Use this to create a user with username namesu
 
 
 ## Knowlegdge Gained
- * How to create and run Bash script in Linux environment.
+* How to create and run Bash script in Linux environment.
 * How to get users inputs.
 * How to create users and assign them sudo rights
 * Basic user management in linux
