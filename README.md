@@ -40,11 +40,13 @@ Automated user creation with Email and sudo Access right
 Get user inputs: Name and Surname Use this to create a user with username namesurname@devopsclass.com, Assign the user sudo rights and display their name, surname and email.
 
 ## Implementation steps:
-Create the script file and make it executable:
+1. Create the script file and make it executable:
 
-  *touch createuser.sh
+    *touch createuser.sh
 
-  *chmod +x createuser.sh
+2. Make it executable
+
+    *chmod +x createuser.sh
 
 3. implement the script:
     *Use read to collect:
